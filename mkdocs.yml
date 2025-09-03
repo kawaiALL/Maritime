@@ -1,3 +1,20 @@
 site_name: Maritime
+site_url: https://kawaiall.github.io/Maritime/
+
 theme:
   name: material
+  logo: material/sail-boat
+  features:
+    - navigation.tabs
+    - navigation.expand
+    - search.suggest
+    - content.code.copy
+    - toc.integrate
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kawaiALL
+
+plugins:
+  - search
